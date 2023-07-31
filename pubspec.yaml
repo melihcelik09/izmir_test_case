@@ -1,0 +1,58 @@
+name: izmir_test_case
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #For Network Operations
+  dio: ^5.3.0
+  #For State Management
+  flutter_mobx: ^2.0.6+5
+  mobx: ^2.2.0
+  #JSON Serialization/Deserialization
+  json_annotation: ^4.8.1
+  #For Native Splash Screen
+  flutter_native_splash: ^2.3.1
+  #For Cache Manager
+  get_storage: ^2.1.1
+  #For Environment Variables
+  flutter_config: ^2.0.2
+  #Map and Location Libraries
+  google_maps_flutter: ^2.4.0
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
+  #Permission Control
+  permission_handler: ^10.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  #For Code Generation
+  build_runner: ^2.4.6
+  #For MobX Code Generation
+  mobx_codegen: ^2.3.0
+  #For JSON Serialization/Deserialization Code Generation
+  json_serializable: ^6.7.1
+# Splash Screen Configuration
+flutter_native_splash:
+  color: "#e1f5fe"
+  image: assets/images/splash-light.png
+  color_dark: "#3c5256"
+  image_dark: assets/images/splash-dark.png
+  android_12:
+    color: "#e1f5fe"
+    image: assets/images/splash-light.png
+    color_dark: "#3c5256"
+    image_dark: assets/images/splash-dark.png
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
