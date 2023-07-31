@@ -39,3 +39,22 @@ It is a project made in line with the given test case.
 To run this project you will need to add the following environment variables to your .env file
 
 `GOOGLE_MAPS_API_KEY`
+
+## Screenshot
+
+|Splash View | Home View  |
+|--|--|
+| <img src = "https://github.com/melihcelik09/izmir_test_case/assets/68864968/3562f602-3547-4617-8b1a-9a4a9188459a" height="500" width="250"> | <img src = "https://github.com/melihcelik09/izmir_test_case/assets/68864968/ddf5102c-e3ba-4646-b0fa-6f68c2aae3ec" height="500" width="250">
+
+
+|Pharmacy View  | Transport Nearby Stops View |
+|--|--|
+| <img src = "https://github.com/melihcelik09/izmir_test_case/assets/68864968/17265a80-2189-4dd6-9f2d-4394c36d5771" height="500" width="250">)| <img src = "https://github.com/melihcelik09/izmir_test_case/assets/68864968/a583e004-284d-4640-8784-c3d2933e235d" height="500" width="250">
+
+
+
+|Transport Line Infos View  | Line Infos Detail View|
+|--|--|
+| <img src = "https://github.com/melihcelik09/izmir_test_case/assets/68864968/d89e7995-3425-4d74-ace1-32a8637ca868" height="500" width="250">| <img src = "https://github.com/melihcelik09/izmir_test_case/assets/68864968/c54d63d2-855d-4dfb-9cc1-6edacf9f85fd" height="500" width="250">
+
+
