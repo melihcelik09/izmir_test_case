@@ -1,6 +1,6 @@
 # İzmir Test Case
 
-It is a project made in line with the given test case.
+This project was made by following the relevant steps on the given task.
 
 ## Features
 
