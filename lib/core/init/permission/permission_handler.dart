@@ -17,7 +17,6 @@ class PermissionManager {
   Future<void> handle() async {
     if (await Permission.location.serviceStatus.isEnabled) {
       PermissionStatus status = await Permission.location.status;
-      debugPrint("Permission status: $status");
       switch (status) {
         case PermissionStatus.denied:
           PermissionStatus newStatus = await Permission.location.request();
